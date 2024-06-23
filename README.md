@@ -1,6 +1,5 @@
 # odin_rockpaperscissor
 
-ChatGPT
 Rock, Paper, Scissors Game
 This repository contains a simple implementation of the classic Rock, Paper, Scissors game in JavaScript. Below is a breakdown of the main components:
 
@@ -19,6 +18,9 @@ To play the game:
 Clone the repository.
 Open the HTML file in a web browser.
 Follow the prompts to enter your choice and see the results.
+
+If you open from GitHub Pages, click on this url [http](https://junfengl95.github.io/odin_rockpaperscissor/game.html) to play the game
+
 Notes:
 The game allows between 1 and 10 rounds per game session.
 Scores are tracked throughout the game and displayed at the end.
