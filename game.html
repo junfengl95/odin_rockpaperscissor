@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="game.js"></script>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1 style="text-align: center;">Inspect the Rock-Paper-Scissor Game in the console</h1>
+    <h1 style="text-align: center;">Rock Paper Scissors: 5 Rounds</h1>
+
+    <div class="button-container"> 
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <div id="round" style="text-align: center;"></div>
+    <br>
+    <div id="result"></div>
+    <br>
+    <button id="playAgain" style="text-align: center; display: none;">Play Again</button>
+    <!-- Ensures JS code is loaded after HTML are fully parsed and available in the DOM-->
+    <script src="game.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,18 @@
+button {
+    background: white;
+    border: 1px solid #eee;
+    display: block;
+    margin: 0 auto;
+    padding: 8px 24px;
+}
+
+.button-container {
+    display: flex;
+    background: #e3f4ff;
+    text-align: center;
+    padding: 8px;
+}
+
+#result {
+    text-align: center;
+}
